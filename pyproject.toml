@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "guiafilmestv"
+version = "0.1.0"
+description = ""
+authors = ["Rodrigo Pereira <rodrigo55pereira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
