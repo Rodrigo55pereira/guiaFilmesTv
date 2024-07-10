@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd "$(dirname "$0")"
 # Ativar o ambiente Poetry
 source /home/rpereira/.cache/pypoetry/virtualenvs/guiafilmestv-iy6lO39t-py3.12/bin/activate
 
